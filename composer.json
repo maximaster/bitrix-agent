@@ -1,0 +1,21 @@
+{
+    "name": "maximaster/bitrix-agent",
+    "description": "Удобный интерфейс для работы с агентами.",
+    "license": "MIT",
+    "minimum-stability": "RC",
+    "prefer-stable": true,
+    "require": {
+        "php": "^7.4",
+        "maximaster/bitrix-enums": ">=18.5",
+        "maximaster/bitrix-value-objects": "^1.0",
+        "symfony/polyfill-php80": "^1.30",
+        "webmozart/assert": "^1.11",
+        "doctrine/collections": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Maximaster\\BitrixAgent\\": "src/"
+        }
+    },
+    "authors": [{"name": "Лавриненко Максим", "email": "maxim.lavrinenko@maximaster.ru"}]
+}

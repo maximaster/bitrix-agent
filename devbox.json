@@ -1,0 +1,6 @@
+{
+  "packages": [
+    "php@7.4",
+    "php74Packages.composer@latest"
+  ]
+}
